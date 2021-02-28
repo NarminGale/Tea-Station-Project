@@ -1,0 +1,19 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;700&family=Rochester&display=swap');
+/* font-family: 'Catamaran', sans-serif;
+font-family: 'Rochester', cursive; */
+
+/* Variables */
+:root {
+  --clr-primary: #678e3e;
+  --clr-primary-light: #beed8c;
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --ff-primary: 'Catamaran', sans-serif;
+  --ff-secondary: 'Rochester', cursive;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+}
