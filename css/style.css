@@ -108,8 +108,8 @@ p {
 /* Header */
 .header {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../images/bg-3.jpeg') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/1.jpg') center/cover no-repeat fixed;
   position: relative;
   overflow-x: hidden;
 }
@@ -135,4 +135,15 @@ p {
   outline-offset: 0.25rem;
   font-size: 1.2rem;
   padding: 1rem 1.7rem;
+}
+
+/* content divider */
+.content-divider {
+  height: 0.5rem;
+  background: linear-gradient(
+    to left,
+    var(--clr-primary),
+    #e9b949,
+    var(--clr-primary)
+  );
 }
