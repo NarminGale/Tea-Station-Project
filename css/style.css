@@ -364,3 +364,17 @@ p {
     margin-right: 3.333%;
   }
 }
+.service-img-container {
+  position: relative;
+}
+.service-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  font-size: 2rem;
+  padding: 0.25rem 0.6rem;
+  color: var(--ff-primary);
+  background: var(--clr-primary-light);
+  border-radius: 50%;
+  border: 1px solid var(--clr-white);
+}
