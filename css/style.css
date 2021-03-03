@@ -395,8 +395,11 @@ p {
   color: var(--clr-primary);
   font-weight: 400;
 }
+.contact-item:nth-child(2) .contact-text {
+  text-transform: lowercase;
+}
 .contact-text {
-  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 .contact-form {
   max-width: 35rem;
