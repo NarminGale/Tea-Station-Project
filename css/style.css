@@ -133,6 +133,19 @@ p {
   color: var(--clr-primary);
 }
 
+/* ===== Animation ===== */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* ===== Navbar ===== */
 .nav-btn {
   position: fixed;
@@ -143,6 +156,7 @@ p {
   z-index: 1;
   cursor: pointer;
   /* animation */
+  animation: bounce 2s ease infinite;
 }
 /* navbar */
 .navbar {
