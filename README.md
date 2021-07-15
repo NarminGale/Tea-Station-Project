@@ -9,9 +9,9 @@
 ## Description
 
 Welcome to the Tea Station Project. </br>
-We have used simply HTML5 and CSS3 in this project and also project is resposive.
+We have used simply HTML and CSS in this project and also project is resposive.
 
 #### Technologies
 
-- HTML5
-- CSS3
+- HTML
+- CSS
